@@ -1,0 +1,249 @@
+header{
+    position: fixed;
+    top : 0;
+    z-index: 10;
+    width: 100%;
+    height: auto;
+    clear: both;
+    background-color: rgba(39, 36, 42, 1);
+    background-image: url(./image/header-pattern-new.jpg);
+    color: #fff;
+    font-family:'Permanent Marker', cursive;
+}
+.navigation{
+    position: relative;
+    width: 50%;
+    float: right;
+    right: 70px;
+    top: 30px;
+}
+nav{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: #fff;
+}
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+nav li{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    display: inline-block;
+    width: 100px;
+}
+
+.name{
+    position: relative;
+    width: 45%;
+    float: left;
+    text-align: center;
+}
+
+body {
+position:relative;
+top: 100px;
+background-color: black;
+}
+
+/* .....................home............. */
+.mainFrame{
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+    background-color: aquamarine;
+    width: 100%;
+    height: 550px;
+    background-image: url(./image/mainBackground.jpg)
+}
+.quotes {
+    position: relative;
+    top: 200px;
+    font-size: 18px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Satisfy', cursive;
+
+}
+
+/* .......................... resume........... */
+.resume{
+    background-color: black;
+    position: relative;
+    bottom: 71px;
+}
+#education{
+    background-color: whitesmoke;
+    background-image: url(./image/education.jpg);
+    background-blend-mode: darken;
+    opacity: 0.8;
+}
+
+#education ul {
+    text-align: left;
+    list-style: none;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+    opacity: 1 !important;
+}
+.flex-container h2{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #fff;
+    font-family: 'Baloo Thambi', cursive;
+}
+
+.flex-container li{
+    font-size: 25px;
+    color: antiquewhite;
+    font-family: 'Baloo Thambi', cursive;
+    z-index: 100;
+}
+#workExperience{
+    background-color: white;
+    opacity: 0.90;
+    background-image: url(./image/people-working-png-5.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 500px;
+}
+.flex-container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 600px;
+    margin-left: 40px;
+    margin-right: 60px;
+}
+.flex-container2 h2{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Baloo Thambi', cursive;
+}
+.flex-container2 li{
+    font-size: 15px;
+    color: black;
+    font-family: 'Baloo Thambi', cursive;
+    z-index: 100;
+}
+
+/* ........................porto....................... */
+
+.porto {
+    background-color: black;
+    position: relative;
+    bottom: 95px;
+    opacity: 0.9;
+    background-image: url(./image/header-pattern-new.jpg);
+}
+
+.porto h2 {
+    text-align: center;
+    font-family: 'Baloo Thambi', cursive;
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+    color: #fff;
+}
+.flex-container3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.flex-container3 h3{
+    color: #fff;
+    font-family: 'Baloo Thambi', cursive;
+
+}
+
+/* ..........................contact................... */
+
+.contactMe {
+    background-color:white;
+    position: relative;
+    bottom: 50px;
+    height: auto;
+}
+
+.contactMe h2 {
+    text-align: center;
+    font-family: 'Baloo Thambi', cursive;
+}
+.formcontainer {
+    position: relative;
+    text-align: center;
+    height: 500px;
+}
+.formcontainer .title {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.formcontainer .description{
+    color: gray;
+}
+.formcontainer .required{
+    color: gray;
+    opacity: 0.8;
+}
+.flex-container4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formcontainer .title {
+    font-weight: bold;
+}
+
+/* ........................ footer....................... */
+footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    height: 70px;
+}
+
+/* ...........................icon....................... */
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
